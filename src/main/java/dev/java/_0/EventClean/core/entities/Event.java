@@ -12,7 +12,7 @@ public record Event(
     LocalDateTime dataFim,
     Integer capacidade,
     String identificador,
-    String local,
+    String localEvento,
     String organizador,
     TipoEvento tipo //se pa q vai ser do tipo Enum
 ){}

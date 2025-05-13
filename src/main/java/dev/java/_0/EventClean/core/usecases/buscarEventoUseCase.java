@@ -4,5 +4,5 @@ import dev.java._0.EventClean.core.entities.Event;
 
 public interface buscarEventoUseCase {
 
-    Event execute(Event event);
+    public Event execute(Event event);
 }
